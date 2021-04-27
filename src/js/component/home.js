@@ -8,7 +8,7 @@ import { Footer } from "./footer";
 //create your first component
 export function Home() {
 	return (
-		<div>
+		<div className="container">
 			<div id="NavBar">
 				<NavBarNico />
 			</div>
@@ -55,6 +55,7 @@ export function Home() {
 					buttonLabel="Go to wikipedia"
 				/>
 			</div>
+
 			<div id="Footer">
 				<Footer />
 			</div>

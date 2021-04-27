@@ -19,7 +19,7 @@ export const Card = props => {
 		</div>
 	);
 };
-Card.PropTypes = {
+Card.propTypes = {
 	title: PropTypes.string,
 	imageUrl: PropTypes.string,
 	description: PropTypes.string,
