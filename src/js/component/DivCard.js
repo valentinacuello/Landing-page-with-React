@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 export const Card = props => {
 	return (
-		<div className="card m-5">
+		<div className="card col-12 col-md-4 p-2">
 			<img
-				className="card-img-top"
+				className="card-img-top "
 				src={props.imageUrl}
 				alt="Card image cap"
 			/>
@@ -19,10 +19,10 @@ export const Card = props => {
 		</div>
 	);
 };
-Card.propTypes = {
-	title: PropType.string,
-	imageUrl: PropType.string,
-	description: PropType.string,
-	buttonUrl: PropType.string,
-	buttonLabel: PropType.string
+Card.PropTypes = {
+	title: PropTypes.string,
+	imageUrl: PropTypes.string,
+	description: PropTypes.string,
+	buttonUrl: PropTypes.string,
+	buttonLabel: PropTypes.string
 };

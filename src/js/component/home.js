@@ -1,57 +1,62 @@
 import React from "react";
-//import NavbarNico from "./navbarNico";
-//import NavBar from "./navbarRosario";
-//import Jumbotron from "./Jumbotron.js";
-import Card from "./DivCard.js";
-//import Footer from "./footer.js";
+import { NavBarNico } from "./NavBarNico";
+import { Navbar } from "./navbarRosario";
+import { Jumbotron } from "./Jumbotron";
+import { Card } from "./DivCard";
+import { Footer } from "./footer";
 
 //create your first component
 export function Home() {
 	return (
 		<div>
-			{/* <div id="NavBar">
-				<NavBar />
+			<div id="NavBar">
+				<NavBarNico />
 			</div>
-			<div id="Jumbotron"></div> */}
-			<div id="DivCard container-fluid">
+			<div id="NavBar">
+				<Navbar />
+			</div>
+			<div id="Jumbotron">
+				<Jumbotron />
+			</div>
+			<div id="DivCard" className="row">
 				<Card
 					title="Valentina"
 					imageUrl="https://picsum.photos/200/300"
-					description="Son integrante del Segundo mejor grupo."
+					description="Son integrante del Primer mejor grupo."
 					buttonUrl="https://en.wikipedia.org/wiki/Valentina"
 					buttonLabel="Go to wikipedia"
 				/>
 				<Card
 					title="Rosario"
 					imageUrl="https://picsum.photos/200/301"
-					description="Son integrante del Segundo mejor grupo."
+					description="Son integrante del Primer mejor grupo."
 					buttonUrl="https://en.wikipedia.org/wiki/Rosario"
 					buttonLabel="Go to wikipedia"
 				/>
 				<Card
 					title="Natalia"
 					imageUrl="https://picsum.photos/200/302"
-					description="Son integrante del Segundo mejor grupo."
+					description="Son integrante del Primer mejor grupo."
 					buttonUrl="https://en.wikipedia.org/wiki/Natalia"
 					buttonLabel="Go to wikipedia"
 				/>
 				<Card
 					title="Nicolas"
 					imageUrl="https://picsum.photos/200/303"
-					description="Son integrante del Segundo mejor grupo."
+					description="Son integrante del Primer mejor grupo."
 					buttonUrl="https://en.wikipedia.org/wiki/Nicolas"
 					buttonLabel="Go to wikipedia"
 				/>
 				<Card
 					title="Seba"
 					imageUrl="https://picsum.photos/200/304"
-					description="Son integrante del Segundo mejor grupo."
+					description="Son integrante del Primer mejor grupo."
 					buttonUrl="https://en.wikipedia.org/wiki/Seba"
 					buttonLabel="Go to wikipedia"
 				/>
 			</div>
 			<div id="Footer">
-				<footer />
+				<Footer />
 			</div>
 		</div>
 	);
