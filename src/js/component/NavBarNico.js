@@ -2,7 +2,7 @@ import React from "react";
 
 export function NavBarNico() {
 	return (
-		<div>
+		<div className="container">
 			<nav className="navbar bg-dark navbar-expand-lg navbar-light ">
 				<a className="navbar-brand text-white" href="#">
 					Start Bootsrap

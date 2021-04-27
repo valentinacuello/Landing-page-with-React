@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 
 export const Navbar = () => {
 	return (
-		<div nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<div
+			nav
+			className="navbar navbar-expand-lg navbar-light bg-dark container">
 			<nav>
 				<a className="navbar-brand" href="#">
 					Start Bootstrap
